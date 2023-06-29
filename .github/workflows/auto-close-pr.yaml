@@ -19,7 +19,7 @@ jobs:
         id: check_student
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.READ_GITHUB_ORG_MEMBERS_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           result-encoding: string
           script: |
             try {
