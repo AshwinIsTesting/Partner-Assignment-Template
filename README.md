@@ -1,3 +1,10 @@
+
+**🚨 Main branch is protected, please work on a [new branch](../../branches) and submit a Pull Request for review**
+
+Read [The GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow) to learn more
+
+
+---
 # Assignment-Template
 <!-- Feel free to modify this template to fit your assignment requirements --->
 
@@ -47,14 +54,13 @@ To participate, you must be:
 
 Students are expected to use the [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow) when working on their project. 
 
-- [ ]  Create a new branch
+- [ ] Create a new branch
 - [ ] Making changes on the new branch
 - [ ] Create a new Pull Request from `new branch` -> `main`
 - [ ] Merge the PR changes into `main` branch **on or before the assignment deadline**.
 - [ ] Use GitHub Discussions to ask any relevant questions regarding the project
 
 #### Heads up 🚨
-- The auto-generated `feedback` branch and feedback PR by classroom bot is not for submission, this PR may be used by maintainers to provide you feedback on your work.
 - Public Pull Requests are not accepted for GitHub Octernships. Apply via the official [Octernships dashboard](https://education.github.com/students/octernships).
 
 ### Resources 📚
