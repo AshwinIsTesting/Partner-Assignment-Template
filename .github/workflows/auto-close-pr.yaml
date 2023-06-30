@@ -3,7 +3,7 @@ name: Auto Close PRs
 permissions:
   contents: write
   pull-requests: write 
-  issues: read
+  issues: write
 
 on:
   pull_request_target:
@@ -24,7 +24,7 @@ jobs:
           script: |
             try {
               const response = await github.rest.orgs.checkMembershipForUser({
-                org: `github`,
+                org: `github-octernships`,
                 username: context.payload.pull_request.user.login
               });
 
@@ -45,7 +45,8 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const body = `This pull request is being automatically closed because we do not accept external contributions to this repository.`;
+            const body = `This pull request is being automatically closed because we do not accept external contributions to this repository. 
+            Please apply to GitHub Octernships via the [offical page](https://education.github.com/students/octernships)`;
 
             await github.rest.issues.createComment({
               ...context.repo,
