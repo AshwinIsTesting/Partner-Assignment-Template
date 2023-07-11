@@ -10,19 +10,6 @@ Read [The GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-
 
 ## COMPANY-NAME
 
-![Company Logo](IMAGE-URL)
-
-### Company information 
-
-<!--- Use this section to share information about your company such as founding information, mission statement, product description, product success, etc.--->
-
-### Why participate in an Octernship with COMPANY-NAME
-
-<!--- Use this section to appeal to students. Consider sharing information about recent projects, the technology stack, the type of mentorship students can expect, listing future employment opportunities, etc. --->
-
-### Octernship role description
-
-<!--- Use this section to describe the role in as much detail as necessary. Please include the GitHub Classroom assignment submission date, length of the Octernship, and the monthly stipend --->
 
 ### Recommended qualifications
 
