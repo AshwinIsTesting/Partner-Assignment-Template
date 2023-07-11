@@ -12,9 +12,7 @@ Read [The GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-
 
 ![Company Logo](IMAGE-URL)
 
-### Company information 
-
-<!--- Use this section to share information about your company such as founding information, mission statement, product description, product success, etc.--->
+mation about your company such as founding information, mission statement, product description, product success, etc.--->
 
 ### Why participate in an Octernship with COMPANY-NAME
 
