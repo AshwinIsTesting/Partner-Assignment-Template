@@ -19,7 +19,7 @@ jobs:
         id: check_student
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.AUTO_CLOSE_PRS }}
           result-encoding: string
           script: |
             try {
@@ -43,7 +43,7 @@ jobs:
         if: ${{ steps.check_student.outputs.result == 'false' }}
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.AUTO_CLOSE_PRS }}
           script: |
             const body = `This pull request is being automatically closed because we do not accept external contributions to this repository. 
             Please apply to GitHub Octernships via the [offical page](https://education.github.com/students/octernships)`;
